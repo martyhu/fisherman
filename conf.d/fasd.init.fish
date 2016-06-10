@@ -1,0 +1,1 @@
+/Users/marty/.config/fisherman/fasd/init.fish
