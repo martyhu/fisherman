@@ -4,7 +4,7 @@ function fish_greeting
 end
 
 function fish_user_key_bindings
-    bind -M insert \cr re-search
+    bind -M insert \cr re_search
 end
 
 # set fish colors
