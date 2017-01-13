@@ -10,7 +10,9 @@ end
 # set fish colors
 set -g TERM xterm-256color
 
-# Set path variable
-set -gx PATH ~/hacks/* $PATH
+# Set path variables
+set -gx JAVA_HOME (/usr/libexec/java_home)
+set -gx ANDROID_HOME /usr/local/Cellar/android-sdk/24.4.1_1
+set -gx PATH ~/hacks/* $JAVA_HOME/bin $PATH
 
 test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish
